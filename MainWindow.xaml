@@ -1,0 +1,35 @@
+﻿<Window x:Class="ParameterScannerPlugin.MainWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ParameterScannerPlugin"
+             Height="auto " Width="450" ResizeMode="NoResize"
+             SizeToContent="Height" Title="Parameter Scanner">
+    <Border Padding="30">
+        <StackPanel>
+            <Image x:Name="iconImg" Height="100" Width="100" Margin="0,0,0,25"/>
+            <DockPanel LastChildFill="True">
+                <Label x:Name="parameterName" Content="Parameter Name:"  Width="110"/>
+                <TextBox x:Name="parameterNameField" Width="Auto"
+                         VerticalAlignment = "Center"
+                         Padding="5" TextChanged="EnableOrDisableButtons"/>
+            </DockPanel>
+            <DockPanel LastChildFill="True" Margin="0,25,0,50">
+                <Label x:Name="parameterValue" Content="Parameter Value:" Width="110"/>
+                <TextBox x:Name="parameterValueField" Width="Auto" 
+                         VerticalAlignment = "Center"
+                         Padding="5"/>
+            </DockPanel>
+            <Grid Height="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="IsolateInView" Content="Isolate in View" Width="100" Grid.Column="0" FontWeight="Bold" Click="IsolateParameterInView" IsEnabled="False"/>
+                <Button x:Name="Select" Content="Select" Width="75" Grid.Column="2" FontWeight="Bold" Click="SelectParameter" IsEnabled="False"/>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>

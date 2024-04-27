@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>ParameterScannerPlugin</Name>
+		<FullClassName>ParameterScannerPlugin.App</FullClassName>
+		<Text>Parameter Scanner</Text>
+		<Description>scan model elements for specific parameter values</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>ParameterScannerPlugin.dll</Assembly>
+		<AddInId>87C532FC-240F-42C4-9BF2-16C957C4DFCF</AddInId>
+		<VendorId>engbim.com</VendorId>
+		<VendorDescription>engbim.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
