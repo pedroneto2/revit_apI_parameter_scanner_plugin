@@ -1,0 +1,12 @@
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\bin\Debug\ParameterScannerPlugin.dll
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\bin\Debug\ParameterScannerPlugin.pdb
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin.csproj.AssemblyReference.cache
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin.dll
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin.pdb
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\bin\Debug\img\icons8-parameter-32.png
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\MainWindow.g.cs
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin_MarkupCompile.cache
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin_MarkupCompile.lref
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\MainWindow.baml
+C:\Users\Pedro\source\repos\ParameterScannerPlugin\ParameterScannerPlugin\obj\Debug\ParameterScannerPlugin.g.resources
